@@ -28,6 +28,9 @@ $rgStatus | jq .
 
 az keyvault create --name $KeyVaultName --resource-group $AzureResourceGroupName --location $AzureLocation
 
+Write-Host "Key Vault URL:" -ForegroundColor Green
+az keyvault show --name $KeyVaultName --query "properties.vaultUri" -o tsv
+
 # Get current user's object ID
 $userPrincipal=$(az rest --method GET --url https://graph.microsoft.com/v1.0/me --headers 'Content-Type=application/json' --query userPrincipalName --output tsv)
 
