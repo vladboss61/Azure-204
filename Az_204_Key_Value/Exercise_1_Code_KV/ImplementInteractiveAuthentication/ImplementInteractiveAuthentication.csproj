@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.16.0" />
     <PackageReference Include="dotenv.net" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Graph" Version="5.93.0" />
     <PackageReference Include="Microsoft.Identity.Client" Version="4.77.1" />
   </ItemGroup>
 
