@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Exercise_1_Code_KV/Exercise_1_Code_KV.csproj" />
+  <Project Path="Exercise_2_Bus/Exercise_2_Bus.csproj" Id="c3810e2b-abad-424f-aa6c-bbfe59ada59e" />
   <Project Path="ImplementInteractiveAuthentication/ImplementInteractiveAuthentication.csproj" />
 </Solution>
