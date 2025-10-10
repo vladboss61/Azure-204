@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Exercise_1_Code_KV/Exercise_1_Code_KeyVault.csproj" Id="17e63518-6c7a-48a0-a018-8c285425da0d"/>
+  <Project Path="src/Exercise_2_Bus/Exercise_2_ServiceBus.csproj" Id="c3810e2b-abad-424f-aa6c-bbfe59ada59e" />
+  <Project Path="src/Exercise_3_EventGrid/Exercise_3_EventGrid.csproj" Id="ab1de003-8677-4cd8-bef6-13a7a0925b36" />
+  <Project Path="src/ImplementInteractiveAuthentication/ImplementInteractiveAuthentication.csproj"  Id="b6ec4ac4-c88e-4774-aa35-7d1206f6d578"/>
+</Solution>
